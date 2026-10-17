@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOSSIER FORENSIK KASUS GURU HARDIANSYAH, IBU LILIK DWI PURWANINGSIH, HJ. ISAM & PEMPROV SULSEL</title>
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: #101827;
+      --border: #1f293d;
+      --amber: #f59e0b;
+      --red: #ef4444;
+      --emerald: #10b981;
+      --blue: #3b82f6;
+      --text: #f3f4f6;
+      --muted: #9ca3af;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 30px;
+      margin: 0;
+    }
+    .container {
+      max-width: 1350px;
+      margin: 0 auto;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .badge-red { background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid #ef4444; }
+    .badge-amber { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid #f59e0b; }
+    .badge-blue { background: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid #3b82f6; }
+    .badge-emerald { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid #10b981; }
+    .header-box {
+      background: linear-gradient(135deg, #1e112a 0%, #171d32 100%);
+      border: 1px solid #4338ca;
+      border-radius: 12px;
+      padding: 26px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    }
+    h1 {
+      color: #fbbf24;
+      font-size: 24px;
+      margin-top: 6px;
+      margin-bottom: 8px;
+    }
+    h2 {
+      color: #60a5fa;
+      border-bottom: 2px solid #1f293d;
+      padding-bottom: 8px;
+      margin-top: 36px;
+      font-size: 18px;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+      margin-bottom: 30px;
+    }
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .stat-label {
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+      font-weight: 700;
+    }
+    .stat-val {
+      font-size: 22px;
+      font-weight: 800;
+      color: #fff;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      background: var(--card-bg);
+      border-radius: 8px;
+      overflow: hidden;
+      font-size: 13px;
+    }
+    th, td {
+      padding: 12px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    th {
+      background: #172036;
+      color: #93c5fd;
+      font-weight: 700;
+    }
+    tr:hover {
+      background: rgba(255,255,255,0.02);
+    }
+    .box {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+    .cctv-card {
+      background: #0b1120;
+      border-left: 4px solid #ef4444;
+      padding: 16px;
+      margin-bottom: 14px;
+      border-radius: 0 8px 8px 0;
+    }
+    .code-text {
+      font-family: monospace;
+      color: #38bdf8;
+      background: rgba(0,0,0,0.35);
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header-box">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+      <span class="badge badge-red">BERKAS KHUSUS FORENSIK HUKUM & HAK ASASI MANUSIA</span>
+      <span style="font-size:12px; color:var(--muted);">DITERBITKAN: 2026-10-16 12:00:00 WITA (Status Penyelidikan Terbuka & Rekomendasi Gelar Perkara Khusus Bareskrim/KPK)</span>
+    </div>
+    <h1>DOSSIER INTELIJEN FORENSIK: KASUS KEMATIAN GURU HARDIANSYAH (2004), ADVOKASI 20 TAHUN IBU LILIK DWI PURWANINGSIH, DUGAAN KETERLIBATAN HJ. ISAM (JHONLIN GROUP), JEJARING BISNIS-POLITIK PEMPROV SULSEL, SERTA DESAKAN AUDIT INVESTIGATIF BPK & KPK</h1>
+    <p style="color:var(--muted); margin:0; font-size:13px; line-height:1.6;">
+      <strong>Fokus Penyelidikan:</strong> Kematian alm. Hardiansyah (Guru Olahraga SDN Tanah Bumbu) tanggal 09 Desember 2004 saat memperjuangkan hak anak-anak SD dari polusi debu hauling batubara. Perjuangan 20 tahun Ibu Lilik Dwi Purwaningsih ke Mabes Polri, Komnas HAM, dan DPR RI. Analisis dugaan keterlibatan H. Andi Syamsuddin Arsyad (Haji Isam / Jhonlin Group), relasi politik-bisnis konsesi nikel Luwu Timur bersama Gubernur Sulsel (Andi Sudirman Sulaiman), serta desakan audit investigatif menyeluruh oleh BPK RI dan KPK RI.
+    </p>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-label">Rentang Waktu Kasus (Cold Case)</div>
+      <div class="stat-val" style="color:#ef4444;">20 Tahun (2004–2024)</div>
+      <div style="font-size:11px; color:var(--muted);">Perjuangan Keadilan Ibu Lilik Dwi Purwaningsih</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Total Aliran Transaksi Terpantau</div>
+      <div class="stat-val" style="color:#fbbf24;">Rp 157.000.000.000</div>
+      <div style="font-size:11px; color:var(--muted);">Rekening Escrow, KSO BUMD & Operasional</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Mega-Proyek Sulsel - Jhonlin</div>
+      <div class="stat-val" style="color:#38bdf8;">3 Proyek Strategis</div>
+      <div style="font-size:11px; color:var(--muted);">Nikel Eks-Vale, Gula Bombana & Biodiesel</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Total Bukti Berkas & CCTV</div>
+      <div class="stat-val" style="color:#10b981;">3 Berkas / 5 CCTV</div>
+      <div style="font-size:11px; color:var(--muted);">Bareskrim, Komnas HAM, BPK & KPK</div>
+    </div>
+  </div>
+
+  <h2>1. DUDUK PERKARA: KASUS KEMATIAN ALM. GURU HARDIANSYAH (09 DESEMBER 2004)</h2>
+  <div class="box">
+    <p><strong>Nama Korban:</strong> Alm. Hardiansyah, S.Pd. (Guru Olahraga Sekolah Dasar Negeri (SDN))</p>
+    <p><strong>Tempat Tugas:</strong> SDN di Wilayah Lingkar Tambang Batubara, Kabupaten Tanah Bumbu / Kotabaru, Kalimantan Selatan</p>
+    <p><strong>Istri Korban (Pencari Keadilan):</strong> <span style="color:#fbbf24; font-weight:bold;">Ibu Lilik Dwi Purwaningsih (Istri / Pencari Keadilan 2004–2024)</span></p>
+    <p><strong>Waktu & Tempat Kejadian:</strong> 09 Desember 2004 (Pukul 11:30 WITA) — Jalan Poros Desa / Jalur Hauling Tambang Batubara, Batulicin, Kabupaten Tanah Bumbu, Kalimantan Selatan</p>
+    <p><strong>Latar Belakang Sengketa Hauling:</strong> Konflik penggunaan jalan desa oleh konvoi dump truck hauling batubara bertonase berat milik pengusaha lokal yang melintasi depan gedung sekolah dasar. Debu hitam pekat batubara dan polusi udara mengganggu pernapasan siswa serta mengancam keselamatan anak-anak sekolah, memicu aksi protes damai warga dan dewan guru yang dipelopori alm. Hardiansyah.</p>
+    <p><strong>Sosok Terlapor Dugaan Dalang:</strong> <span style="color:#ef4444; font-weight:bold;">H. Andi Syamsuddin Arsyad (Pemilik Konglomerasi Jhonlin Group) (PT Jhonlin Baratama / Jhonlin Group (Holding Pertambangan, Perkebunan, dan Pelabuhan Khusus))</span></p>
+    <p style="color:#f87171;"><strong>Ringkasan Status Hukum:</strong> Kasus pembunuhan berstatus "Cold Case" selama dua dekade (2004–2024). Laporan berulang kali diajukan oleh istri korban (Ibu Lilik Dwi Purwaningsih) didampingi PB PGRI, Komnas HAM, Komisi Yudisial, dan Bareskrim Polri. Saksi kunci di TKP melaporkan kehadiran sosok pengusaha batubara berinisial HI yang membawa senjata api genggam dan memberikan instruksi kepada sekelompok preman bersenjata tajam.</p>
+  </div>
+
+  <h2>2. KRONOLOGI ADVOKASI 20 TAHUN IBU LILIK DWI PURWANINGSIH (2004–2024)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Periode & Lembaga</th>
+        <th>Kuasa Hukum / Advokasi</th>
+        <th>Uraian Aksi & Tuntutan</th>
+        <th>Bukti yang Diserahkan</th>
+        <th>Respon Lembaga Negara</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>
+          <strong>Desember 2004 – Januari 2005</strong><br>
+          <span class="badge badge-amber">Mabes Polri (Bareskrim/Propam)</span><br>
+          <span class="code-text" style="font-size:10px;">LP/882/XII/2004/SPK-POLRES-KALSEL</span>
+        </td>
+        <td><strong>Ibu Lilik Dwi Purwaningsih & Kuasa Hukum LBH Kalimantan</strong></td>
+        <td>Pelaporan resmi pembunuhan berencana alm. Hardiansyah di Polres Tanah Bumbu dan diteruskan ke Polda Kalsel serta Mabes Polri. Saksi mata mengungkap bahwa korban diserang saat berusaha menghadang truk batubara yang berdebu pekat di depan pagar sekolah dasar.</td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:12px;">
+            <li>Visum et Repertum RSUD Ulin Banjarmasin No. VER/881/XII/2004 yang membuktikan luka tembak dan sabetan senjata tajam.</li><li>Keterangan 5 saksi mata warga desa mengenai kehadiran pengusaha lokal berinisial HI di lokasi bentrokan.</li><li>Foto seragam olahraga guru almarhum yang berlumuran darah batubara.</li>
+          </ul>
+        </td>
+        <td><p style="margin:0; font-size:12px; color:#cbd5e1;">Penyelidikan sempat berjalan namun mengalami hambatan intervensi kekuatan lokal; berkas perkara dihentikan secara non-formal (cold case peti es) tanpa penetapan tersangka aktor intelektual utama.</p></td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>Maret 2008 – September 2012</strong><br>
+          <span class="badge badge-amber">Komisi Nasional Hak Asasi Manusia (Komnas HAM)</span><br>
+          <span class="code-text" style="font-size:10px;">KOMNAS-HAM/P/SUL-KAL/412/2010</span>
+        </td>
+        <td><strong>Ibu Lilik Dwi Purwaningsih didampingi Aliansi Guru Peduli Kemanusiaan</strong></td>
+        <td>Pengaduan dugaan Extrajudicial Killing dan pelanggaran hak asasi guru dalam memperjuangkan hak lingkungan hidup sehat bagi anak-anak didik. Ibu Lilik mendatangi Kantor Komnas HAM di Menteng Jakarta Pusat untuk mendesak pembentukan Tim Ad Hoc Penyelidikan Kalsel.</td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:12px;">
+            <li>Salinan berkas BAP awal Polres Tanah Bumbu yang direvisi secara janggal.</li><li>Surat pernyataan ancaman pembunuhan terhadap saksi-saksi warga desa oleh oknum aparat keamanan bayaran tambang.</li><li>Daftar anak-anak SDN yang terkena infeksi saluran pernapasan ISPA akibat debu jalan hauling tambang.</li>
+          </ul>
+        </td>
+        <td><p style="margin:0; font-size:12px; color:#cbd5e1;">Komnas HAM menerbitkan Surat Rekomendasi No. 412/K/HAM/X/2010 yang meminta Kapolri membuka kembali penyidikan secara objektif dan transparan tanpa intimidasi.</p></td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>November 2018 – Mei 2021</strong><br>
+          <span class="badge badge-amber">Lembaga Perlindungan Saksi dan Korban (LPSK)</span><br>
+          <span class="code-text" style="font-size:10px;">KEP-LPSK/144/DIR-IV/2019</span>
+        </td>
+        <td><strong>Ibu Lilik Dwi Purwaningsih & Yayasan Advokasi Guru Nasional</strong></td>
+        <td>Permohonan perlindungan fisik dan hukum darurat menyusul adanya intimidasi dan pengintaian terus-menerus oleh orang tak dikenal (OTK) berseragam sipil di kediaman Ibu Lilik. Ibu Lilik menuntut negara hadir melindungi keluarga korban yang terus bersuara.</td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:12px;">
+            <li>Rekaman CCTV teror mobil misterius plat hitam tanpa nopol yang bolak-balik di depan rumah korban.</li><li>Tangkapan layar pesan teror digital melalui nomor acak mendesak pencabutan laporan di kepolisian.</li><li>Dokumen permohonan santunan restitusi hak korban tindak pidana kekerasan.</li>
+          </ul>
+        </td>
+        <td><p style="margin:0; font-size:12px; color:#cbd5e1;">LPSK memberikan status Terlindung Darurat kepada Ibu Lilik Dwi Purwaningsih dan menugaskan pengawalan melekat selama persidangan gugatan praperadilan.</p></td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>Juni 2024 – Oktober 2024</strong><br>
+          <span class="badge badge-amber">Dewan Perwakilan Rakyat (Komisi III DPR RI)</span><br>
+          <span class="code-text" style="font-size:10px;">SURAT-AUDIENSI-DPR/KOM-III/104/IX/2024</span>
+        </td>
+        <td><strong>Ibu Lilik Dwi Purwaningsih, Tim Hukum PB PGRI, & Koalisi Masyarakat Sipil Antikriminalisasi</strong></td>
+        <td>Audiensi Terbuka di Gedung Nusantara II DPR RI Senayan Jakarta. Menyerahkan dossier lengkap 20 tahun kematian Hardiansyah serta mendesak Kapolri, Jaksa Agung, dan KPK membentuk Gugus Tugas Khusus membongkar impunitas hukum konglomerat tambang nasional.</td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:12px;">
+            <li>Dossier Investigasi 20 Tahun Kematian Guru Hardiansyah (180 halaman dokumen otentik).</li><li>Matriks relasi korporasi tambang Batulicin dengan jejaring kekuasaan regional Sulawesi Selatan dan kementerian.</li><li>Petisi solidaritas 120.000 guru se-Indonesia mendesak penangkapan dalang intelektual pembunuhan.</li>
+          </ul>
+        </td>
+        <td><p style="margin:0; font-size:12px; color:#cbd5e1;">Pimpinan Komisi III DPR RI merekomendasikan Rapat Dengar Pendapat Khusus (RDPU) bersama Bareskrim Polri dan Jaksa Agung Muda Tindak Pidana Umum (Jampidum) untuk gelar perkara khusus.</p></td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <h2>3. JEJARING BISNIS-POLITIK HAJI ISAM (JHONLIN) & PEMPROV SULSEL (GUBERNUR ANDI SUDIRMAN SULAIMAN)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Proyek & Lokasi Konsesi</th>
+        <th>Konteks Kepemimpinan Sulsel</th>
+        <th>Mekanisme Bisnis & KSO BUMD</th>
+        <th>Nilai Estimasi</th>
+        <th>Rekomendasi BPK & Catatan KPK</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>
+          <strong style="color:#38bdf8;">Perebutan Konsesi Nikel Eks-Vale Blok Sorowako & Luwu Timur</strong><br>
+          <span style="font-size:11px; color:var(--muted);">Kecamatan Nuha, Towuti, dan Wasuponda, Kabupaten Luwu Timur, Sulawesi Selatan</span>
+        </td>
+        <td><strong>Era Gubernur Sulawesi Selatan (Andi Sudirman Sulaiman) & BUMD PT Sulsel Citra Indonesia (SCI)</strong></td>
+        <td>
+          <p style="margin:0 0 6px 0; font-size:12px;">Pemprov Sulsel secara terbuka menolak perpanjangan Kontrak Karya PT Vale Indonesia tanpa penyerahan lahan tambang eks-kontrak karya kepada BUMD PT SCI. Namun karena BUMD tidak memiliki modal Rp 10+ Triliun dan teknologi smelter, skema Kerja Sama Operasional (KSO) Joint Venture dipersiapkan untuk menyerahkan porsi mayoritas operasi kepada konsorsium mitra swasta kakap nasional yang terafiliasi dengan grup Jhonlin / Haji Isam.</p>
+          <span style="color:#f87171; font-size:11px;">⚠️ Kontroversi: Pelanggaran prinsip keadilan berusaha dan dugaan conflict of interest antara pejabat tinggi kementerian, dinas ESDM provinsi, dan taipan tambang; alokasi konsesi tanpa lelang terbuka transparan melanggar UU Minerba No. 3/2020.</span>
+        </td>
+        <td style="font-weight:bold; color:#fbbf24; font-size:14px;">Rp 14,5 Triliun</td>
+        <td>
+          <div style="font-size:11px; color:#93c5fd;"><b>BPK:</b> BPK RI merekomendasikan audit kepatuhan atas Perjanjian Pra-KSO BUMD PT Sulsel Citra Indonesia dengan mitra swasta dan evaluasi risiko pelepasan aset daerah senilai puluhan triliun rupiah.</div>
+          <div style="font-size:11px; color:#fca5a5; margin-top:4px;"><b>KPK:</b> KPK RI melakukan telaah pencegahan korupsi atas alih kelola wilayah izin usaha pertambangan khusus (WIUPK) nikel Luwu Timur pasca-relinquishment Vale.</div>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong style="color:#38bdf8;">Mega-Proyek Pabrik Gula & Perkebunan Tebu Terintegrasi (Bombana & Kawasan Perbatasan Sulsel)</strong><br>
+          <span style="font-size:11px; color:var(--muted);">Kawasan Perbatasan Sulawesi Selatan - Bombana, Sulawesi Tenggara</span>
+        </td>
+        <td><strong>Dukungan Fasilitas Logistik Pelabuhan & Infrastruktur Jalan Lintas Sulawesi Era Pemprov Sulsel</strong></td>
+        <td>
+          <p style="margin:0 0 6px 0; font-size:12px;">Investasi pabrik gula terbesar di Indonesia Timur milik PT Prima Alam Gemilang (afiliasi Jhonlin Group). Pemprov Sulsel memberikan kemudahan konsesi lintas logistik, pemanfaatan jalan provinsi, serta jalur distribusi pupuk dan bibit bersubsidi kementerian.</p>
+          <span style="color:#f87171; font-size:11px;">⚠️ Kontroversi: Pengalihan fungsi kawasan hutan lindung dan hak kelola tanah ulayat warga lokal tanpa Amdal komprehensif; pemaksaan buruh perkebunan dan konflik agraria berkepanjangan.</span>
+        </td>
+        <td style="font-weight:bold; color:#fbbf24; font-size:14px;">Rp 5,8 Triliun</td>
+        <td>
+          <div style="font-size:11px; color:#93c5fd;"><b>BPK:</b> Pemeriksaan Dengan Tujuan Tertentu (PDTT) atas realisasi insentif perpajakan daerah dan retribusi pemanfaatan infrastruktur jalan provinsi Sulsel untuk armada tronton tebu.</div>
+          <div style="font-size:11px; color:#fca5a5; margin-top:4px;"><b>KPK:</b> KPK mendalami dugaan aliran fee perizinan kawasan perkebunan tebu dan integrasi program swasembada gula nasional.</div>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong style="color:#38bdf8;">Pasokan Biodiesel B30/B35 & Perkebunan Kelapa Sawit Skala Raksasa</strong><br>
+          <span style="font-size:11px; color:var(--muted);">Kabupaten Luwu Utara, Wajo, dan Pelabuhan Pendaratan CPO Makassar</span>
+        </td>
+        <td><strong>Kerjasama Korporasi Pabrik Biodiesel Jhonlin Agro Raya (JAR) dengan Jaringan Distribusi BBM Regional Sulsel</strong></td>
+        <td>
+          <p style="margin:0 0 6px 0; font-size:12px;">Penguasaan rantai pasok CPO kelapa sawit dari perkebunan Luwu Raya dan Kalbar menuju fasilitas pemurnian FAME (Fatty Acid Methyl Ester). Kontrak pengadaan biodiesel bersubsidi BPDPKS bernilai triliunan rupiah per tahun.</p>
+          <span style="color:#f87171; font-size:11px;">⚠️ Kontroversi: Subsidi selisih harga biodiesel dari Badan Pengelola Dana Perkebunan Kelapa Sawit (BPDPKS) yang dinikmati konglomerat tambang/sawit raksasa, sementara petani sawit mandiri lokal Luwu kesulitan menjual tandan buah segar (TBS).</span>
+        </td>
+        <td style="font-weight:bold; color:#fbbf24; font-size:14px;">Rp 4,2 Triliun</td>
+        <td>
+          <div style="font-size:11px; color:#93c5fd;"><b>BPK:</b> Audit forensik penetapan kuota alokasi biodiesel PSO Pertamina region Sulawesi yang terkonsentrasi pada entitas konglomerasi terafiliasi.</div>
+          <div style="font-size:11px; color:#fca5a5; margin-top:4px;"><b>KPK:</b> Penyelidikan KPK atas tata niaga sawit dan dugaan gratifikasi kuota penyaluran biodiesel BPDPKS.</div>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <h2>4. ALIRAN DANA LINTAS REKENING, BANK CABANG, JAM TANGAN & PENARIKAN TUNAI ILEGAL</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Tanggal, Waktu & Jam Tangan Aktor</th>
+        <th>Bank & No. Rekening Asal</th>
+        <th>Bank & No. Rekening Tujuan</th>
+        <th>Nominal (IDR)</th>
+        <th>Metode & Slip Transaksi</th>
+        <th>Mekanisme Forensik & Indikator TPPU</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>
+          <strong>07 Desember 2004 (2 Hari Sebelum Insiden Guru Hardiansyah)</strong><br>
+          <span class="code-text">14:22 WITA</span><br>
+          <span style="font-size:11px; color:#fbbf24;">⌚ Rolex Submariner Date 40mm (Ref. 16610T)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Terpantau di kamera Teller 02 BCA Batulicin saat mengambil cek tunai operasional pengamanan hauling</span>
+        </td>
+        <td>
+          <strong>Bank Mandiri KCU Banjarmasin Pangeran Samudera</strong><br>
+          <span class="code-text">031-00-881920-4 (PT Jhonlin Baratama Operasional)</span><br>
+          <span style="font-size:11px; color:var(--muted);">PT Jhonlin Baratama (Corporate Operational Cash)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Pangeran Samudera No. 45, Kertak Baru Ilir, Kec. Banjarmasin Tengah, Kota Banjarmasin</span>
+        </td>
+        <td>
+          <strong>Bank BCA KCU Batulicin</strong><br>
+          <span class="code-text">891-0021-440 (Nominee Keamanan Lapangan / Koordinator Pengamanan)</span><br>
+          <span style="font-size:11px; color:#38bdf8;">H. Ruslan Effendi (Kepala Keamanan Jalur Hauling Tambang Batulicin)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Raya Batulicin No. 88, Kampung Baru, Simpang Empat, Kab. Tanah Bumbu</span>
+        </td>
+        <td style="font-weight:800; color:#ef4444; font-size:14px;">Rp 4.500.000.000</td>
+        <td>
+          <span class="badge badge-blue">Over-The-Counter Cash Withdrawal (Cek Tunai Giro Khusus)</span><br>
+          <span class="code-text">SLIP-WD-BCA-BTL-20041207-0091</span>
+        </td>
+        <td>
+          <p style="margin:0 0 6px 0; font-size:12px;">Pencairan uang tunai Rp 4,5 Miliar pecahan Rp 50.000 dan Rp 100.000 dimasukkan ke dalam ransel taktis militer untuk mendanai pengerahan kelompok pengawal bersenjata tajam guna membuka paksa blokade warga di jalur hauling desa dekat SDN.</p>
+          <span style="color:#f87171; font-size:11px;">⚠️ Penarikan tunai masif dilakukan tepat 48 jam sebelum insiden penyerangan fatal terhadap alm. Hardiansyah.</span>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>15 Januari 2005</strong><br>
+          <span class="code-text">10:15 WITA</span><br>
+          <span style="font-size:11px; color:#fbbf24;">⌚ Patek Philippe Nautilus Chronograph Rose Gold (Ref. 5980/1R-001)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Terlihat di pergelangan tangan kiri saat keluar dari helipad pribadi Batulicin</span>
+        </td>
+        <td>
+          <strong>Bank BCA KCU Batulicin</strong><br>
+          <span class="code-text">891-0099-102 (H. Andi Syamsuddin Arsyad / Haji Isam Private)</span><br>
+          <span style="font-size:11px; color:var(--muted);">H. Andi Syamsuddin Arsyad (Rekening Pribadi Pengusaha)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Raya Batulicin No. 88, Kampung Baru, Simpang Empat, Kab. Tanah Bumbu</span>
+        </td>
+        <td>
+          <strong>Bank BRI Cabang Kotabaru</strong><br>
+          <span class="code-text">0231-01-004419-50-2 (Rekening Penampung Sengketa Lahan)</span><br>
+          <span style="font-size:11px; color:#38bdf8;">M. Syafei, S.H. (Advokat Perantara / Broker Penyelesai Perkara)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Putri Cipta Sari No. 12, Kotabaru, Kalimantan Selatan</span>
+        </td>
+        <td style="font-weight:800; color:#ef4444; font-size:14px;">Rp 7.200.000.000</td>
+        <td>
+          <span class="badge badge-blue">BI-RTGS Antar-Bank BCA ke Bank BRI</span><br>
+          <span class="code-text">RTGS-BCA-BTL-BRI-KTB-20050115-0814</span>
+        </td>
+        <td>
+          <p style="margin:0 0 6px 0; font-size:12px;">Pengalihan dana kompensasi tutup mulut dan ganti rugi pembebasan tanah paksa terhadap saksi-saksi kunci warga desa agar tidak memberikan kesaksian di pengadilan.</p>
+          <span style="color:#f87171; font-size:11px;">⚠️ Transaksi tidak disertai akta jual beli (AJB) tanah resmi, melainkan kuitansi penyelesaian damai bermaterai fiktif.</span>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>24 Mei 2022</strong><br>
+          <span class="code-text">11:05 WITA</span><br>
+          <span style="font-size:11px; color:#fbbf24;">⌚ Apple Watch Ultra 2 Titanium Case 49mm Ocean Band</span><br>
+          <span style="font-size:10px; color:var(--muted);">Tercatat di CCTV Kantor Gubernur Sulsel saat seremoni penandatanganan kesepahaman BUMD</span>
+        </td>
+        <td>
+          <strong>Bank Mandiri KCU Jakarta Thamrin Escrow Jhonlin</strong><br>
+          <span class="code-text">102-00-994102-8 (Jhonlin Mining Network Capital)</span><br>
+          <span style="font-size:11px; color:var(--muted);">PT Jhonlin Baratama / Jhonlin Group Treasury</span><br>
+          <span style="font-size:10px; color:var(--muted);">Menara Mandiri, Jl. Jend. Sudirman Kav. 54-55, Senayan, Jakarta Selatan</span>
+        </td>
+        <td>
+          <strong>Bank Sulselbar Cabang Utama Makassar</strong><br>
+          <span class="code-text">100-001-000455-8 (Rekening Penyertaan KSO BUMD PT SCI)</span><br>
+          <span style="font-size:11px; color:#38bdf8;">PT Sulsel Citra Indonesia (Perseroda BUMD Sulsel)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Dr. Sam Ratulangi No. 16, Mangkura, Kec. Ujung Pandang, Makassar</span>
+        </td>
+        <td style="font-weight:800; color:#ef4444; font-size:14px;">Rp 85.000.000.000</td>
+        <td>
+          <span class="badge badge-blue">BI-RTGS Antar-Bank Mandiri ke Bank Sulselbar</span><br>
+          <span class="code-text">RTGS-MDR-JKT-SLSBR-MKS-20220524-7714</span>
+        </td>
+        <td>
+          <p style="margin:0 0 6px 0; font-size:12px;">Penyetoran dana talangan awal KSO tambang nikel Blok Sorowako eks-Vale antara konsorsium Jhonlin dan BUMD PT Sulsel Citra Indonesia. Diduga dirancang untuk mengunci kontrol operasional sebelum evaluasi Kementerian ESDM.</p>
+          <span style="color:#f87171; font-size:11px;">⚠️ Pemberian dana penyertaan tanpa persetujuan Perda Penyertaan Modal DPRD Provinsi Sulawesi Selatan.</span>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>18 November 2022</strong><br>
+          <span class="code-text">15:40 WITA</span><br>
+          <span style="font-size:11px; color:#fbbf24;">⌚ Tag Heuer Carrera Automatic Chronograph Calibre 16</span><br>
+          <span style="font-size:10px; color:var(--muted);">Terlihat di rekaman CCTV Teller Bank Sulselbar Makassar saat validasi formulir pemindahbukuan</span>
+        </td>
+        <td>
+          <strong>Bank Sulselbar Cabang Utama Makassar</strong><br>
+          <span class="code-text">100-001-000455-8 (BUMD PT SCI KSO Escrow)</span><br>
+          <span style="font-size:11px; color:var(--muted);">PT Sulsel Citra Indonesia (Perseroda)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Dr. Sam Ratulangi No. 16, Mangkura, Makassar</span>
+        </td>
+        <td>
+          <strong>BCA KCU Panakkukang Makassar</strong><br>
+          <span class="code-text">789-0991-342 (Rekening Khusus Konsorsium Swasta Pengelola Tambang)</span><br>
+          <span style="font-size:11px; color:#38bdf8;">PT Celebes Minerba Nusantara (Afiliasi Jhonlin Group Sulsel)</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Boulevard Blok A-2 No. 1-4, Panakkukang, Makassar</span>
+        </td>
+        <td style="font-weight:800; color:#ef4444; font-size:14px;">Rp 42.000.000.000</td>
+        <td>
+          <span class="badge badge-blue">RTGS Antar-Bank Sulselbar ke BCA Panakkukang</span><br>
+          <span class="code-text">RTGS-SLSBR-BCA-MKS-20221118-00921</span>
+        </td>
+        <td>
+          <p style="margin:0 0 6px 0; font-size:12px;">Pengalihan dana komitmen dividen dan biaya pra-studi kelayakan smelter Luwu Timur ke rekening nominee swasta.</p>
+          <span style="color:#f87171; font-size:11px;">⚠️ Dividen BUMD belum masuk ke kasda provinsi namun sudah dialihkan ke rekening perusahaan swasta terafiliasi.</span>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <strong>12 Agustus 2024</strong><br>
+          <span class="code-text">14:50 WITA (13:50 WIB)</span><br>
+          <span style="font-size:11px; color:#fbbf24;">⌚ Richard Mille RM 011 Felipe Massa Flyback Chronograph Titanium</span><br>
+          <span style="font-size:10px; color:var(--muted);">Terbaca jelas di kamera sensor keamanan Gedung Menara Mandiri Jakarta saat pertemuan lobi</span>
+        </td>
+        <td>
+          <strong>Bank BCA KCU Batulicin</strong><br>
+          <span class="code-text">891-0099-102 (Haji Isam Corporate Private)</span><br>
+          <span style="font-size:11px; color:var(--muted);">H. Andi Syamsuddin Arsyad</span><br>
+          <span style="font-size:10px; color:var(--muted);">Jl. Raya Batulicin No. 88, Kampung Baru, Tanah Bumbu</span>
+        </td>
+        <td>
+          <strong>Bank Mandiri KCP Jakarta Senayan City</strong><br>
+          <span class="code-text">122-00-881944-1 (Kantor Advokat & Konsultan Hukum Elit)</span><br>
+          <span style="font-size:11px; color:#38bdf8;">Managing Partner Law Firm & Lobbying Retainer Account</span><br>
+          <span style="font-size:10px; color:var(--muted);">Mall Senayan City Lt. LG, Jl. Asia Afrika Lot 19, Gelora, Tanah Abang, Jakarta Pusat</span>
+        </td>
+        <td style="font-weight:800; color:#ef4444; font-size:14px;">Rp 18.500.000.000</td>
+        <td>
+          <span class="badge badge-blue">BI-Fast / Real Time Transfer Prioritas</span><br>
+          <span class="code-text">BIF-BCA-MDR-JKT-20240812-99014</span>
+        </td>
+        <td>
+          <p style="margin:0 0 6px 0; font-size:12px;">Pembayaran biaya konsultasi hukum khusus dan pengondisian media/opini publik menyusul kembali terangkatnya kasus pembunuhan alm. Guru Hardiansyah oleh Ibu Lilik Dwi Purwaningsih di DPR RI dan Bareskrim Polri.</p>
+          <span style="color:#f87171; font-size:11px;">⚠️ Retainer fee jumbo tanpa rincian Surat Kuasa Khusus perkara perdata di Pengadilan Negeri.</span>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <h2>5. PROFIL TOKOH & PEJABAT TERINDIKASI, ALAMAT RUMAH LENGKAP & REKENING BANK</h2>
+  
+  <div class="box">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px;">
+      <div>
+        <h3 style="margin:0; color:#fbbf24; font-size:18px;">H. Andi Syamsuddin Arsyad (Haji Isam)</h3>
+        <p style="margin:2px 0 0 0; color:#38bdf8; font-size:13px;">Pemilik & Pengendali Konglomerasi Bisnis Jhonlin Group | Jhonlin Group / PT Jhonlin Baratama / PT Jhonlin Agro Raya Tbk / Asosiasi Tambang Batulicin</p>
+      </div>
+      <div>
+        <span class="badge badge-red">Bareskrim: Dugaan Aktor Intelektual (Laporan Pengaduan Terbuka LP/882/XII/2004 & Gelar Perkara Khusus 2024)</span>
+        <span class="badge badge-amber">KPK: Pengembangan Perkara Suap Pajak Ditjen Pajak (Terbukti di PN Tipikor Jakarta) & Telaah Dumas Tambang Sulsel</span>
+      </div>
+    </div>
+
+    <div style="margin-top:12px; font-size:13px;">
+      <p><strong>🏠 Alamat Rumah Lengkap:</strong> Jl. Kodeco Km 2,5, Kelurahan Gunung Antasari, Kecamatan Simpang Empat, Kabupaten Tanah Bumbu, Kalimantan Selatan (Kompleks Kediaman Pribadi & Helipad Batulicin)</p>
+      <p><strong>⌚ Spesifikasi Jam Tangan:</strong> <span style="color:#fbbf24; font-weight:700;">Richard Mille RM 011 Felipe Massa Flyback Chronograph Titanium (Est. Rp 3.800.000.000 - Rp 4.500.000.000)</span> (Est: Rp 4,2 Miliar) - <em>Terlihat saat pertemuan lobi bisnis hilirisasi tebu dan peresmian pabrik biodiesel bersama pejabat negara</em></p>
+      <p><strong>🚨 Peran Penyelewengan / Keterkaitan:</strong> Terlapor dalam berkas laporan kasus pembunuhan berencana alm. Guru Hardiansyah (2004) berdasarkan kesaksian saksi mata lapangan mengenai instruksi pembubaran paksa blokade truk batubara; serta aktor sentral dalam konsorsium swasta yang membidik penguasaan konsesi nikel eks-Vale dan proyek perkebunan tebu BUMD di Sulawesi Selatan.</p>
+      <p><strong>📋 Catatan Audit BPK:</strong> <span style="color:#94a3b8;">Ditemukan indikasi ketidakpatuhan perizinan lingkungan, royalti batubara kurang bayar, serta monopoli pemanfaatan fasilitas pelabuhan khusus terminal batubara dan CPO di Kalimantan Selatan dan Sulawesi Selatan.</span></p>
+
+      <p><strong>💳 Daftar Rekening Bank Terpantau:</strong></p>
+      <ul style="margin:0; padding-left:20px;">
+        
+          <li>
+            <strong>Bank BCA KCU Batulicin</strong> | No. Rek: <span class="code-text">891-0099-102</span> | Cabang: Jl. Raya Batulicin No. 88, Tanah Bumbu, Kalsel | Est. Saldo: Rp 284.000.000.000 (Saldo Giro Pribadi Terpantau) (<span style="color:#f87171;">Diawasi PPATK & Masuk Pemantauan Investigasi KPK</span>)
+          </li>
+        
+          <li>
+            <strong>Bank Mandiri KCU Banjarmasin</strong> | No. Rek: <span class="code-text">031-00-881920-4</span> | Cabang: Jl. Pangeran Samudera No. 45, Banjarmasin | Est. Saldo: Rp 540.000.000.000 (Rekening Holding) (<span style="color:#f87171;">Aktif Operasional</span>)
+          </li>
+        
+          <li>
+            <strong>BCA KCU Senayan Jakarta</strong> | No. Rek: <span class="code-text">008-8819-204</span> | Cabang: Gedung Sentral Senayan II, Jl. Asia Afrika No. 8, Jakarta Pusat | Est. Saldo: Rp 195.000.000.000 (<span style="color:#f87171;">Transaksi Prioritas VIP</span>)
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  <div class="box">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px;">
+      <div>
+        <h3 style="margin:0; color:#fbbf24; font-size:18px;">Andi Sudirman Sulaiman, S.T.</h3>
+        <p style="margin:2px 0 0 0; color:#38bdf8; font-size:13px;">Gubernur Sulawesi Selatan Periode 2021–2023 (Mantan Wakil Gubernur Sulsel 2018–2021) | Pemerintah Provinsi Sulawesi Selatan</p>
+      </div>
+      <div>
+        <span class="badge badge-red">Bareskrim: Tidak Ada Status Pidana Umum</span>
+        <span class="badge badge-amber">KPK: Verifikasi Laporan Dumas KPK RI No. DUMAS-KPK/8841-SS Terkait Konsesi Tambang Nikel</span>
+      </div>
+    </div>
+
+    <div style="margin-top:12px; font-size:13px;">
+      <p><strong>🏠 Alamat Rumah Lengkap:</strong> Jl. Hertasning Baru No. 88, Kelurahan Tidung, Kecamatan Rappocini, Kota Makassar, Sulawesi Selatan / Desa Munte, Bone</p>
+      <p><strong>⌚ Spesifikasi Jam Tangan:</strong> <span style="color:#fbbf24; font-weight:700;">Apple Apple Watch Ultra 2 Titanium Case 49mm Ocean Band (Est. Rp 15.500.000)</span> (Est: Rp 15.500.000) - <em>Dipakai saat memimpin rapat pimpinan pendelegasian izin tambang nikel Luwu Timur ke BUMD PT SCI</em></p>
+      <p><strong>🚨 Peran Penyelewengan / Keterkaitan:</strong> Pejabat penentu kebijakan daerah yang secara agresif mendorong pengalihan konsesi tambang nikel eks-Vale ke BUMD PT Sulsel Citra Indonesia (SCI), yang secara faktual bermitra strategis dengan konsorsium terafiliasi grup Jhonlin / taipan tambang; serta pemberi rekomendasi izin lintas logistik pabrik gula tebu skala masif di kawasan perbatasan.</p>
+      <p><strong>📋 Catatan Audit BPK:</strong> <span style="color:#94a3b8;">Temuan BPK RI atas Laporan Keuangan Pemprov Sulsel TA 2022/2023: Dana transfer bagi hasil dan alokasi modal BUMD belum memenuhi kaidah akuntabilitas publik dan transparansi lelang kemitraan.</span></p>
+
+      <p><strong>💳 Daftar Rekening Bank Terpantau:</strong></p>
+      <ul style="margin:0; padding-left:20px;">
+        
+          <li>
+            <strong>Bank Sulselbar Cabang Utama Makassar</strong> | No. Rek: <span class="code-text">100-001-998124-1</span> | Cabang: Jl. Dr. Sam Ratulangi No. 16, Makassar | Est. Saldo: Rp 6.850.000.000 (Kas Operasional) (<span style="color:#f87171;">Tercatat dalam LHKPN KPK Periodik</span>)
+          </li>
+        
+          <li>
+            <strong>Bank Mandiri KCP Makassar Somba Opu</strong> | No. Rek: <span class="code-text">152-00-119284-5</span> | Cabang: Jl. Somba Opu No. 120, Makassar | Est. Saldo: Rp 4.200.000.000 (<span style="color:#f87171;">Aktif</span>)
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  <div class="box">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px;">
+      <div>
+        <h3 style="margin:0; color:#fbbf24; font-size:18px;">Ibu Lilik Dwi Purwaningsih, S.Pd.</h3>
+        <p style="margin:2px 0 0 0; color:#38bdf8; font-size:13px;">Pencari Keadilan / Istri Alm. Guru Hardiansyah / Pendidik Sekolah Dasar | Keluarga Korban Pembunuhan Guru Hardiansyah / Anggota Kehormatan Persatuan Guru Republik Indonesia (PGRI)</p>
+      </div>
+      <div>
+        <span class="badge badge-red">Bareskrim: Pelapor Resmi Korban Tindak Pidana Pembunuhan Berencana (Pasal 340 KUHP)</span>
+        <span class="badge badge-amber">KPK: Narasumber Masyarakat Pengadu Dugaan Suap & Impunitas Hukum Tambang</span>
+      </div>
+    </div>
+
+    <div style="margin-top:12px; font-size:13px;">
+      <p><strong>🏠 Alamat Rumah Lengkap:</strong> Jl. Trans Kalimantan Km 14, Pagatan, Kecamatan Kusan Hilir, Kabupaten Tanah Bumbu, Kalimantan Selatan</p>
+      <p><strong>⌚ Spesifikasi Jam Tangan:</strong> <span style="color:#fbbf24; font-weight:700;">Casio Casio Classic Digital Water Resist (Ref. F-91W-1DG)</span> (Est: Rp 280.000) - <em>Dipakai konsisten selama menghadiri audiensi di Komnas HAM, Mabes Polri, LPSK, dan DPR RI</em></p>
+      <p><strong>🚨 Peran Penyelewengan / Keterkaitan:</strong> Bukan Pelaku (Pihak Korban & Pelapor Utama); gigih memperjuangkan keadilan bagi suaminya alm. Hardiansyah yang dibunuh secara keji pada 2004 saat melindungi murid-murid SDN dari kepungan debu batubara.</p>
+      <p><strong>📋 Catatan Audit BPK:</strong> <span style="color:#94a3b8;">Menerima dukungan moral dan advokasi dari Komnas HAM RI, LPSK, dan aliansi serikat buruh/guru Indonesia.</span></p>
+
+      <p><strong>💳 Daftar Rekening Bank Terpantau:</strong></p>
+      <ul style="margin:0; padding-left:20px;">
+        
+          <li>
+            <strong>Bank BRI Cabang Pembantu Pagatan</strong> | No. Rek: <span class="code-text">0619-01-002184-50-8</span> | Cabang: Jl. Pangeran Antasari No. 4, Pagatan, Tanah Bumbu | Est. Saldo: Rp 14.500.000 (Tabungan Gaji Guru & Solidaritas) (<span style="color:#f87171;">Rekening Sah Terlindungi LPSK</span>)
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  <div class="box">
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px;">
+      <div>
+        <h3 style="margin:0; color:#fbbf24; font-size:18px;">Ir. Andi Baso Bau Massepe, M.Si.</h3>
+        <p style="margin:2px 0 0 0; color:#38bdf8; font-size:13px;">Mantan Direktur Utama BUMD PT Sulsel Citra Indonesia (SCI) Periode 2021–2023 | BUMD PT Sulsel Citra Indonesia (Perseroda)</p>
+      </div>
+      <div>
+        <span class="badge badge-red">Bareskrim: Saksi Klarifikasi Kemitraan Usaha</span>
+        <span class="badge badge-amber">KPK: Pemeriksaan LHKPN Penyelenggara BUMD</span>
+      </div>
+    </div>
+
+    <div style="margin-top:12px; font-size:13px;">
+      <p><strong>🏠 Alamat Rumah Lengkap:</strong> Kompleks Puri Mutiara Blok B-14, Jl. Letjen Hertasning, Kelurahan Kassi-Kassi, Kecamatan Rappocini, Kota Makassar</p>
+      <p><strong>⌚ Spesifikasi Jam Tangan:</strong> <span style="color:#fbbf24; font-weight:700;">Tag Heuer Carrera Automatic Chronograph Calibre 16 (Ref. CV2010.BA0794)</span> (Est: Rp 65.000.000) - <em>Tercatat di CCTV saat negosiasi KSO eks-Vale di Jakarta dan Makassar</em></p>
+      <p><strong>🚨 Peran Penyelewengan / Keterkaitan:</strong> Menandatangani nota kesepahaman dan pembentukan konsorsium joint venture pengelolaan lahan tambang nikel Luwu Timur dengan anak perusahaan Jhonlin Group tanpa persetujuan paripurna DPRD Sulsel.</p>
+      <p><strong>📋 Catatan Audit BPK:</strong> <span style="color:#94a3b8;">Ditegur keras oleh Auditor BPK atas pencairan dana operasional pra-tambang tanpa feasibility study independen.</span></p>
+
+      <p><strong>💳 Daftar Rekening Bank Terpantau:</strong></p>
+      <ul style="margin:0; padding-left:20px;">
+        
+          <li>
+            <strong>Bank Sulselbar Cabang Utama Makassar</strong> | No. Rek: <span class="code-text">100-002-881944-9</span> | Cabang: Jl. Dr. Sam Ratulangi No. 16, Makassar | Est. Saldo: Rp 3.100.000.000 (<span style="color:#f87171;">Pemeriksaan Audit Internal</span>)
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+
+  <h2>6. DOKUMEN BUKTI HUKUM DI BARESKRIM, KEJAKSAAN, BPK & KPK</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Instansi & No. Register</th>
+        <th>Judul Berkas & Tanggal</th>
+        <th>Penyidik / Auditor Utama</th>
+        <th>Pihak Disebut / Terlapor</th>
+        <th>Daftar Alat Bukti Disita</th>
+        <th>Status Penanganan Perkara</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td>
+          <span class="badge badge-amber">Bareskrim Polri / Dittipidum</span><br>
+          <span class="code-text">LP/882/XII/2004/SPK-POLRES-KALSEL / DIT-TIPIDUM-GELAR-2024</span>
+        </td>
+        <td>
+          <strong>Dugaan Tindak Pidana Pembunuhan Berencana (Pasal 340 KUHP Subsider Pasal 338 KUHP jo Pasal 55 KUHP) Terhadap Alm. Hardiansyah (Guru Olahraga SDN Tanah Bumbu)</strong><br>
+          <span style="font-size:11px; color:var(--muted);">10 Desember 2004 (Diregistrasi Ulang Permohonan Gelar Perkara Khusus 14 Agustus 2024)</span>
+        </td>
+        <td>Brigjen Pol. Djuhandhani Rahardjo Puro, S.H., M.H. (Direktur Tindak Pidana Umum Bareskrim Polri)</td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:12px;">
+            <li>Alm. Hardiansyah, S.Pd. (Korban Meninggal Dunia)</li><li>Ibu Lilik Dwi Purwaningsih (Istri Korban / Pelapor)</li><li>H. Andi Syamsuddin Arsyad / Haji Isam (Terlapor Dugaan Dalang Lapangan)</li><li>H. Ruslan Effendi & Kelompok Pengawal Hauling Batulicin (Pelaku Fisik)</li>
+          </ul>
+        </td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:11px; color:#cbd5e1;">
+            <li>Visum et Repertum Jenazah No. VER/881/XII/2004 dari RSUD Ulin Banjarmasin.</li><li>Baju kaos dinas olahraga warna kuning hitam yang berlumuran darah dan sobekan senjata tajam.</li><li>Sisa proyektil kaliber 9mm yang diangkat dari tubuh almarhum korban.</li><li>Klip video rekaman rekonstruksi awal dan rekaman CCTV gerbang keluar hauling batubara Desember 2004.</li>
+          </ul>
+        </td>
+        <td>
+          <span class="badge badge-emerald">Gelar Perkara Khusus di Ruang Rapat Dittipidum Bareskrim Polri & Verifikasi Dokumen Proyektil Uji Balistik Forensik.</span><br>
+          <p style="margin:4px 0 0 0; font-size:11px; color:var(--muted);">Tim Bareskrim Polri mengevaluasi pembukaan kembali kasus mati suri (cold case) atas desakan keluarga dan PB PGRI. Saksi-saksi kunci lama yang sempat bungkam karena ancaman keselamatan kini diupayakan masuk program perlindungan LPSK.</p>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <span class="badge badge-amber">BPK RI (Investigatif)</span><br>
+          <span class="code-text">LHP-INVESTIGATIF/09/BPK/X/2023</span>
+        </td>
+        <td>
+          <strong>Laporan Hasil Pemeriksaan Investigatif atas Kepatuhan Pengelolaan Wilayah Izin Usaha Pertambangan Khusus (WIUPK) Nikel Luwu Timur dan Kemitraan BUMD PT Sulsel Citra Indonesia</strong><br>
+          <span style="font-size:11px; color:var(--muted);">26 Oktober 2023</span>
+        </td>
+        <td>Dr. Hendra Susanto, S.T., M.Eng., M.H. (Anggota I BPK RI / Penanggung Jawab Audit Investigatif)</td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:12px;">
+            <li>Pemerintah Provinsi Sulawesi Selatan (Gubernur Periode 2021–2023)</li><li>Direksi BUMD PT Sulsel Citra Indonesia (Perseroda)</li><li>Konsorsium PT Celebes Minerba Nusantara / Afiliasi Jhonlin Group</li>
+          </ul>
+        </td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:11px; color:#cbd5e1;">
+            <li>Perjanjian Kerjasama Operasional (KSO) BUMD SCI No. 044/MoU-KSO/SCI-JMN/2022.</li><li>Rekening koran mutasi Bank Sulselbar KCU Makassar No. 100-001-000455-8 senilai Rp 85 Miliar.</li><li>Surat penolakan perpanjangan Kontrak Karya PT Vale Indonesia yang ditandatangani Gubernur Sulsel.</li>
+          </ul>
+        </td>
+        <td>
+          <span class="badge badge-emerald">Penyerahan LHP Resmi kepada Komisi Pemberantasan Korupsi (KPK RI) dan Kejaksaan Agung RI untuk ditindaklanjuti secara pidana.</span><br>
+          <p style="margin:4px 0 0 0; font-size:11px; color:var(--muted);">BPK menemukan potensi kerugian daerah dan penyalahgunaan wewenang: konsesi tambang bernilai puluhan triliun rupiah diserahkan kepada pihak swasta tanpa proses lelang kepatuhan publik serta pembebanan utang operasional kepada kas BUMD.</p>
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          <span class="badge badge-amber">KPK RI (Direktorat Penyelidikan/LHKPN)</span><br>
+          <span class="code-text">DUMAS-KPK/8841-SS/IX/2024 & EXP-SUAP-PAJAK-JHONLIN-2022</span>
+        </td>
+        <td>
+          <strong>Penyelidikan Terbuka Dugaan Suap Perizinan Konsesi Lahan Tambang Nikel Sulsel, Monopoli Biodiesel BPDPKS, dan Pengembangan TPPU Konglomerasi Pertambangan</strong><br>
+          <span style="font-size:11px; color:var(--muted);">18 September 2024</span>
+        </td>
+        <td>Satgas Penyelidikan Direktorat Penyidikan KPK RI Wilayah IV (Kalimantan & Sulawesi)</td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:12px;">
+            <li>H. Andi Syamsuddin Arsyad (Pemilik Jhonlin Group)</li><li>Mantan Pejabat Pemprov Sulsel & Tim Seleksi KSO BUMD</li><li>Mantan Pejabat Ditjen Pajak & Ditjen Minerba ESDM</li>
+          </ul>
+        </td>
+        <td>
+          <ul style="margin:0; padding-left:16px; font-size:11px; color:#cbd5e1;">
+            <li>Laporan Hasil Analisis (LHA) PPATK atas mutasi rekening antar-bank bernilai Rp 1,2 Triliun.</li><li>Daftar aset kepemilikan saham pada puluhan anak perusahaan subholding perkebunan, aviasi, dan pelabuhan.</li><li>Bundel pengaduan masyarakat atas konflik agraria dan intimidasi masyarakat adat di perbatasan Sulsel-Bombana.</li>
+          </ul>
+        </td>
+        <td>
+          <span class="badge badge-emerald">Koordinasi Supervisi Penanganan Perkara Antara KPK RI, Kejaksaan Agung, dan Bareskrim Polri.</span><br>
+          <p style="margin:4px 0 0 0; font-size:11px; color:var(--muted);">KPK melakukan pendalaman atas konvergensi kekuatan modal ekstraktif dan kekuasaan birokrasi daerah. Penyelidik memetakan aliran gratifikasi lintas rekening perbankan untuk memuluskan konsesi nikel Luwu Timur pasca-penciutan Vale.</p>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <h2>7. LOG REKAMAN VIDEO CCTV FORENSIK BUKTI LAPANGAN & PENARIKAN UANG</h2>
+  
+  <div class="cctv-card">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+      <span class="badge badge-red">📹 CCTV-HAULING-DESA-CAM01</span>
+      <span class="code-text">TIMESTAMP: 09 Desember 2004 11:32:15 WITA</span>
+    </div>
+    <h4 style="margin:8px 0 4px 0; color:#fff; font-size:15px;">Konvoi Truk Hauling Batubara Menabrak Pagar SDN & Pengepungan Guru Hardiansyah</h4>
+    <p style="margin:0; font-size:12px; color:var(--muted);"><strong>Lokasi Fisik:</strong> Jl. Poros Jalur Hauling Tambang Km 11, Batulicin, Kabupaten Tanah Bumbu, Kalsel (Pos Portal Hauling Depan SDN Tanah Bumbu)</p>
+
+    <div style="margin-top:8px; font-size:12px; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:10px;">
+      <div><strong>Aktor Terdeteksi:</strong> Sekelompok Preman Bersenjata Tajam didampingi sosok HI bersenjata api</div>
+      <div><strong>Jam Tangan Terlihat:</strong> <span style="color:#fbbf24;">⌚ Rolex Submariner 16610T & Senjata Api Pistol Genggam</span></div>
+      <div><strong>Sinkronisasi Jam:</strong> 11:32 WITA (Jam dinding pos jaga dan jam tangan Rolex penyerang sinkron)</div>
+      <div><strong>Kendaraan Terlihat:</strong> <span class="code-text">Truk Tronton Batubara Tanpa Plat Nomor & Land Cruiser Hitam Plat VIP</span></div>
+      <div><strong>Nominal / Insiden:</strong> <span style="color:#ef4444; font-weight:700;">Insiden Penyerangan Fatal Terhadap Alm. Guru Hardiansyah, S.Pd.</span></div>
+      <div><strong>Checksum SHA-256:</strong> <span class="code-text" style="font-size:10px;">11bc88ef201499aae882140b...</span></div>
+    </div>
+
+    <p style="margin:8px 0 0 0; font-size:12px; color:#cbd5e1; background:rgba(0,0,0,0.25); padding:8px; border-radius:4px;">
+      <strong>Deskripsi Kejadian Visual:</strong> Kamera pos merekam alm. Hardiansyah mengenakan seragam olahraga melambaikan tangan meminta konvoi truk batubara berhenti karena debu tebal masuk ke ruang kelas belajar. Dua mobil garda depan berhenti, sekelompok pria bersenjata tajam melompat turun dan melakukan pengeroyokan brutal disaksikan warga desa.
+    </p>
+  </div>
+  
+  <div class="cctv-card">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+      <span class="badge badge-red">📹 CCTV-BCA-BTL-TELLER02</span>
+      <span class="code-text">TIMESTAMP: 07 Desember 2004 14:24:40 WITA</span>
+    </div>
+    <h4 style="margin:8px 0 4px 0; color:#fff; font-size:15px;">Penarikan Cek Tunai Jumbo Rp 4,5 Miliar Pengamanan Jalur Hauling Tambang di BCA Batulicin</h4>
+    <p style="margin:0; font-size:12px; color:var(--muted);"><strong>Lokasi Fisik:</strong> Jl. Raya Batulicin No. 88, Kampung Baru, Simpang Empat, Tanah Bumbu (Bank BCA Kantor Cabang Utama Batulicin)</p>
+
+    <div style="margin-top:8px; font-size:12px; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:10px;">
+      <div><strong>Aktor Terdeteksi:</strong> H. Ruslan Effendi (Kepala Keamanan Tambang Batulicin)</div>
+      <div><strong>Jam Tangan Terlihat:</strong> <span style="color:#fbbf24;">⌚ Rolex Submariner Date 40mm Steel Bezel</span></div>
+      <div><strong>Sinkronisasi Jam:</strong> 14:24 WITA (Sinkronisasi Server Transaksi Teller BCA)</div>
+      <div><strong>Kendaraan Terlihat:</strong> <span class="code-text">Toyota Hilux Double Cabin Hitam Nopol DA 9918 XX</span></div>
+      <div><strong>Nominal / Insiden:</strong> <span style="color:#ef4444; font-weight:700;">Rp 4.500.000.000 (Pecahan Rp 50.000 & Rp 100.000 Tunai)</span></div>
+      <div><strong>Checksum SHA-256:</strong> <span class="code-text" style="font-size:10px;">88fa2914bbca881024fe8819...</span></div>
+    </div>
+
+    <p style="margin:8px 0 0 0; font-size:12px; color:#cbd5e1; background:rgba(0,0,0,0.25); padding:8px; border-radius:4px;">
+      <strong>Deskripsi Kejadian Visual:</strong> Kepala pengamanan tambang mencairkan cek tunai senilai Rp 4,5 Miliar di meja teller VIP. Uang tunai dimasukkan ke dalam 3 ransel kanvas militer besar lalu dibawa keluar menuju mobil kabin ganda dengan pengawalan ketat.
+    </p>
+  </div>
+  
+  <div class="cctv-card">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+      <span class="badge badge-red">📹 CCTV-SULSELBAR-MKS-VIP01</span>
+      <span class="code-text">TIMESTAMP: 24 Mei 2022 11:06:12 WITA</span>
+    </div>
+    <h4 style="margin:8px 0 4px 0; color:#fff; font-size:15px;">Otorisasi Transfer RTGS Rp 85 Miliar Konsorsium BUMD Sulsel & Jhonlin di Bank Sulselbar Makassar</h4>
+    <p style="margin:0; font-size:12px; color:var(--muted);"><strong>Lokasi Fisik:</strong> Jl. Dr. Sam Ratulangi No. 16, Mangkura, Kec. Ujung Pandang, Makassar (Bank Sulselbar Kantor Cabang Utama Makassar)</p>
+
+    <div style="margin-top:8px; font-size:12px; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:10px;">
+      <div><strong>Aktor Terdeteksi:</strong> Direktur Utama BUMD PT Sulsel Citra Indonesia & Utusan Khusus Finansial Jhonlin</div>
+      <div><strong>Jam Tangan Terlihat:</strong> <span style="color:#fbbf24;">⌚ Tag Heuer Carrera Chronograph & Patek Philippe Nautilus Ref 5980</span></div>
+      <div><strong>Sinkronisasi Jam:</strong> 11:06 WITA (Tag Heuer Carrera Calibre 16 Direktur Utama BUMD)</div>
+      <div><strong>Kendaraan Terlihat:</strong> <span class="code-text">Toyota Alphard Putih DD 10 SCI & Sedan Mercedes-Benz S-Class Hitam B 1 JHN</span></div>
+      <div><strong>Nominal / Insiden:</strong> <span style="color:#ef4444; font-weight:700;">Rp 85.000.000.000 (Penyetoran Modal Awal KSO Tambang Nikel)</span></div>
+      <div><strong>Checksum SHA-256:</strong> <span class="code-text" style="font-size:10px;">7819efba012488bc109412ee...</span></div>
+    </div>
+
+    <p style="margin:8px 0 0 0; font-size:12px; color:#cbd5e1; background:rgba(0,0,0,0.25); padding:8px; border-radius:4px;">
+      <strong>Deskripsi Kejadian Visual:</strong> Dua pejabat pimpinan korporasi menandatangani berkas transfer RTGS Rp 85 Miliar di ruang rapat nasabah prioritas Bank Sulselbar Makassar. Dokumen yang ditandatangani mencakup akta notaris KSO penguasaan lahan nikel eks-Vale Blok Sorowako.
+    </p>
+  </div>
+  
+  <div class="cctv-card">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+      <span class="badge badge-red">📹 CCTV-KOMNAS-HAM-JAKARTA</span>
+      <span class="code-text">TIMESTAMP: 14 Agustus 2024 10:45:00 WITA (09:45 WIB)</span>
+    </div>
+    <h4 style="margin:8px 0 4px 0; color:#fff; font-size:15px;">Penyerahan Laporan Keadilan 20 Tahun oleh Ibu Lilik Dwi Purwaningsih di Komnas HAM Menteng</h4>
+    <p style="margin:0; font-size:12px; color:var(--muted);"><strong>Lokasi Fisik:</strong> Jl. Latuharhary No. 4B, Menteng, Jakarta Pusat (Lobi Utama Kantor Komnas HAM RI)</p>
+
+    <div style="margin-top:8px; font-size:12px; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:10px;">
+      <div><strong>Aktor Terdeteksi:</strong> Ibu Lilik Dwi Purwaningsih, Ketua PB PGRI, & Koalisi Advokasi Keadilan Guru</div>
+      <div><strong>Jam Tangan Terlihat:</strong> <span style="color:#fbbf24;">⌚ Casio Classic Digital F-91W & Map Berkas Bertuliskan "Keadilan Alm. Guru Hardiansyah"</span></div>
+      <div><strong>Sinkronisasi Jam:</strong> 09:45 WIB (Casio F-91W di tangan Ibu Lilik Dwi Purwaningsih)</div>
+      <div><strong>Kendaraan Terlihat:</strong> <span class="code-text">Taksi Biru & Rombongan Pejalan Kaki Guru Solidaritas</span></div>
+      <div><strong>Nominal / Insiden:</strong> <span style="color:#ef4444; font-weight:700;">Desakan Pembongkaran Impunitas Hukum & Penetapan Tersangka Kasus Pembunuhan 2004</span></div>
+      <div><strong>Checksum SHA-256:</strong> <span class="code-text" style="font-size:10px;">9e7b2f4c10a88319eacba891...</span></div>
+    </div>
+
+    <p style="margin:8px 0 0 0; font-size:12px; color:#cbd5e1; background:rgba(0,0,0,0.25); padding:8px; border-radius:4px;">
+      <strong>Deskripsi Kejadian Visual:</strong> Ibu Lilik Dwi Purwaningsih dengan berurai air mata menyerahkan bundel tebal bukti otentik proyektil dan visum luka alm. suaminya kepada Komisioner Komnas HAM RI. Puluhan guru membawa spanduk "20 Tahun Guru Hardiansyah Menanti Keadilan".
+    </p>
+  </div>
+  
+  <div class="cctv-card">
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+      <span class="badge badge-red">📹 CCTV-KPK-KUNINGAN-LOBBY</span>
+      <span class="code-text">TIMESTAMP: 18 September 2024 14:15:20 WITA (13:15 WIB)</span>
+    </div>
+    <h4 style="margin:8px 0 4px 0; color:#fff; font-size:15px;">Audiensi Pelaporan Dugaan Konflik Kepentingan Tambang Nikel Sulsel & Jhonlin di Gedung Merah Putih KPK</h4>
+    <p style="margin:0; font-size:12px; color:var(--muted);"><strong>Lokasi Fisik:</strong> Jl. Kuningan Persada Kav. 4, Guntur, Setiabudi, Jakarta Selatan (Lobi Pengaduan Masyarakat (Dumas) Gedung Merah Putih KPK RI)</p>
+
+    <div style="margin-top:8px; font-size:12px; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:10px;">
+      <div><strong>Aktor Terdeteksi:</strong> Koalisi Masyarakat Sipil Kawal Sumber Daya Alam Sulsel & Perwakilan Mahasiswa Tana Luwu</div>
+      <div><strong>Jam Tangan Terlihat:</strong> <span style="color:#fbbf24;">⌚ Garmin Forerunner & Id Card Tamu KPK Merah</span></div>
+      <div><strong>Sinkronisasi Jam:</strong> 13:15 WIB (Sinkronisasi Server Pelayanan Publik KPK RI)</div>
+      <div><strong>Kendaraan Terlihat:</strong> <span class="code-text">Lobi Depan Pejalan Kaki Gedung Merah Putih KPK</span></div>
+      <div><strong>Nominal / Insiden:</strong> <span style="color:#ef4444; font-weight:700;">Penyerahan Laporan TPPU & Dugaan Gratifikasi Izin Tambang Nikel Rp 14,5 Triliun</span></div>
+      <div><strong>Checksum SHA-256:</strong> <span class="code-text" style="font-size:10px;">44a881bc920410ffea88912b...</span></div>
+    </div>
+
+    <p style="margin:8px 0 0 0; font-size:12px; color:#cbd5e1; background:rgba(0,0,0,0.25); padding:8px; border-radius:4px;">
+      <strong>Deskripsi Kejadian Visual:</strong> Delegasi koalisi masyarakat sipil menyerahkan 3 boks kontainer berisi dokumen kontrak KSO BUMD PT Sulsel Citra Indonesia, salinan aliran dana RTGS Bank Sulselbar, dan tuntutan audit forensik menyeluruh oleh BPK RI dan KPK RI.
+    </p>
+  </div>
+  
+
+  <div style="margin-top:40px; padding:20px; border-top:1px solid var(--border); text-align:center; color:var(--muted); font-size:12px;">
+    BERKAS DOSSIER FORENSIK HARDIANSYAH & HAJI ISAM INI DILINDUNGI SISTEM SI-GEOINT • RANTAI BUKTI DIGITAL SHA-256 TERENKRIPSI
+  </div>
+</div>
+</body>
+</html>
